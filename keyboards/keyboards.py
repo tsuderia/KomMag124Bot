@@ -15,3 +15,8 @@ interest_keyboard = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='🔙 Вернуться назад', callback_data='back_to_about')],
     [InlineKeyboardButton(text='🏠 Вернуться на главную', callback_data='back_to_main_menu')]
 ])
+
+shop_keyboard = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='🛒 Посмотреть товары', callback_data='show_items')],
+    [InlineKeyboardButton(text='🏠 Вернуться на главную', callback_data='back_to_main_menu')]
+])

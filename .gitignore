@@ -173,4 +173,5 @@ cython_debug/
 =======
 .gitignore
 .env
+db.db
 >>>>>>> a42b0ca (Base functions)
