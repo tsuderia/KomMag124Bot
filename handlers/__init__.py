@@ -4,6 +4,7 @@ from handlers.about_us import register_about_us_handler
 from handlers.shop import register_shop_handler
 from handlers.start import register_start_handler
 from handlers.support import register_support_handler
+from handlers.admin import register_admin_handler
 
 
 def register_all_handlers(dp: Dispatcher):
@@ -11,3 +12,4 @@ def register_all_handlers(dp: Dispatcher):
     register_about_us_handler(dp)
     register_shop_handler(dp)
     register_support_handler(dp)
+    register_admin_handler(dp)

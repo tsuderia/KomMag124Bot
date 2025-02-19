@@ -1,4 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 main_menu_keyboard = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='ℹ️ О нас', callback_data='about')],
@@ -20,3 +21,7 @@ shop_keyboard = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='🛒 Посмотреть товары', callback_data='show_items')],
     [InlineKeyboardButton(text='🏠 Вернуться на главную', callback_data='back_to_main_menu')]
 ])
+
+admin_keyboard = ReplyKeyboardMarkup(keyboard=[
+    [KeyboardButton(text="‼️ Показать все обращения")]
+], resize_keyboard=True, input_field_placeholder="Выберите пункт меню")
