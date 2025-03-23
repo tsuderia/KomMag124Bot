@@ -23,5 +23,8 @@ shop_keyboard = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 admin_keyboard = ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text="‼️ Показать все обращения")]
+    [KeyboardButton(text="‼️ Показать все обращения")],
+    [KeyboardButton(text="Показать все нерешенные обращения")],
+    [KeyboardButton(text="🔙 Вернуться к отображению пользователя")]
+    
 ], resize_keyboard=True, input_field_placeholder="Выберите пункт меню")

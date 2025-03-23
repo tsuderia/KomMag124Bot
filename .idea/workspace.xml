@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45317a89-a708-43f1-8f94-d2abc142def8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/fsm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/KomMag124Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KomMag124Bot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/support.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/keyboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/texts.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/texts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

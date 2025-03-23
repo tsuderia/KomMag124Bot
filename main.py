@@ -2,25 +2,26 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from database.database import init_db
+from database.models import init_db
 
 from config import BOT_TOKEN
-from handlers import register_all_handlers
+import handlers
 import logging
+
+# registering bot
 
 async def main():
 
     # init db
     await init_db()
 
-    # registering bot
     bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
     # registering dispatcher
     dp = Dispatcher()
 
     # registering all routers & handlers
-    register_all_handlers(dp)
+    handlers.register_all_handlers(dp)
 
     try:
         await dp.start_polling(bot)

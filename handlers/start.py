@@ -4,7 +4,7 @@ from aiogram.types import Message
 
 from utils.texts import start_command_text
 from keyboards.keyboards import main_menu_keyboard
-from database.database import add_user
+from database.requests import add_user
 
 start_router = Router()
 
